@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>encrypted</title>
+  <link rel="stylesheet" href="./main.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+          integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+<main>
+  <div class="container">
+    <img src="./public/vector.png" alt="vector" class="vector">
+    <div class="content">
+      <div class="flex">
+        <div class="box">
+          <div class="encrypt">
+            <label>
+              <input class="input-text" type="text" placeholder="Ingresa el texto aqui"/>
+            </label>
+          </div>
+          <div class="text">
+            <p><img src="./public/icon.png" alt="icon"/> solo letras minusculas y sin acento</p>
+          </div>
+          <div class="content-btn">
+            <button class="btn-encrypt">Encrypt</button>
+            <button class="btn-decrypt">Decrypt</button>
+          </div>
+        </div>
+        <div class="result">
+
+          <div class="content-result">
+            <div class="img-placeholder">
+              <p class="encrypted"></p>
+              <div class="hidde">
+                <img src="./public/placeholder.png" alt="placeholder"/>
+                <h2>Ningun mensaje fue encontrado</h2>
+                <p>ingrese el texto que desees encriptar o desencriptar</p>
+              </div>
+
+              <button class="btn-copy">Copiar Texto</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="./app.js"></script>
+</body>
+</html>
